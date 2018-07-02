@@ -1,0 +1,12 @@
+<resources>
+    <string name="fileprovider_path">com.madry.photos.fileprovider</string>
+    <string name="app_name">Photos</string>
+    <string name="cd_single_photo">Single photo</string>
+    <string name="add_new_photo">Add new photo</string>
+
+    <string name="error_camera_not_available">Camera is not available</string>
+    <string name="error_file_creation">Cannot create file</string>
+    <string name="cd_gallery_photo">Gallery photo</string>
+    <string name="error_load_database">Error loading from database</string>
+    <string name="error_save_to_database">Error while adding photo to database</string>
+</resources>

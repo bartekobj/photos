@@ -1,0 +1,40 @@
+ext {
+    supportLibraryVersion = "27.1.1"
+    requeryVersion = "1.5.1"
+    glideVersion = "4.7.1"
+    rxKotlinVersion = "2.2.0"
+    rxAndroidVersion = "2.0.1"
+    junitVersion = "4.12"
+    supportTestRunnerVersion = "1.0.2"
+    espressoVersion = "3.0.2"
+    robolectricVersion = "3.8"
+
+    support = [
+            appCompat: "com.android.support:appcompat-v7:${supportLibraryVersion}",
+            recyclerView: "com.android.support:recyclerview-v7:${supportLibraryVersion}",
+            annotations: "com.android.support:support-annotations:${supportLibraryVersion}"
+    ]
+
+    requery = [
+            base: "io.requery:requery:${requeryVersion}",
+            android: "io.requery:requery-android:${requeryVersion}",
+            kotlin: "io.requery:requery-kotlin:${requeryVersion}",
+            processor: "io.requery:requery-processor:$requeryVersion"
+    ]
+
+    rx = [
+            kotlin: "io.reactivex.rxjava2:rxkotlin:${rxKotlinVersion}",
+            android: "io.reactivex.rxjava2:rxandroid:${rxAndroidVersion}"
+    ]
+
+    test = [
+            junit: "junit:junit:${junitVersion}",
+            supportRunner: "com.android.support.test:runner:${supportTestRunnerVersion}",
+            espresso: "com.android.support.test.espresso:espresso-core:${espressoVersion}",
+            robolectric: "org.robolectric:robolectric:${robolectricVersion}"
+    ]
+
+    kotlinJdk7 =  "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    glide = "com.github.bumptech.glide:glide:$glideVersion"
+
+}
